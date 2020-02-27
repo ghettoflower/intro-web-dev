@@ -20,27 +20,11 @@ body {
   }
 
   p:hover { /* This applies a rule to paragraphs when a cursor hovers over it */
-      border: 1px solid white
+      border: 1px solid black
   }
 
   #Hyperlinks {
-      font-family: helvetica;
+      font-family: 'Segoe UI';
       font-size: 20px;
   }
   
-  #Navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-    
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
-
-  .active {
-    background-color: #8DCF2F;
-  }
