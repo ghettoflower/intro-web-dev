@@ -1,0 +1,46 @@
+body {
+    background-color: goldenrod;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 38px;
+  }
+  
+  p {
+    font-family: helvetica;
+    font-size: 26px;
+  }
+
+  a {
+      font-family: helvetica;
+      font-size: 20px;
+  }
+
+  p:hover { /* This applies a rule to paragraphs when a cursor hovers over it */
+      border: 1px solid white
+  }
+
+  #Hyperlinks {
+      font-family: helvetica;
+      font-size: 20px;
+  }
+  
+  #Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+    
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #8DCF2F;
+  }
